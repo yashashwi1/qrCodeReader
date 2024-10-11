@@ -18,3 +18,6 @@
    **_example:_**
    ## docker run -it -v /home/vagrant/qrCodeReader/src/putQR_Here:/src/putQR_Here qr_extractor:1.0.0
 
+
+   ## This repo will internally uses Pytorch, PYtorch is an ML library. It is because of this only, the docker image when created, is very heavy upt 9GB.
+
